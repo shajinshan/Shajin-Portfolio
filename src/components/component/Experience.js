@@ -23,7 +23,7 @@ const Experience = () => {
             <section className="experience-section">
                 <h2 className="experience-title">Experience</h2>
                 {value === 'intern' ? (
-                <div className="experience-content">
+                <div className="experience-content exp-container" >
                     <h3 className="job-title">Java FullStack Developer - intern at Srishti Innovative</h3>
                    
                         <div className="experience-details">
@@ -41,8 +41,8 @@ const Experience = () => {
                     
                 </div>
                  ) : value === 'project1' ? (
-                    <div> <Project1/> </div>
-                ):(<div><Project2/></div>)
+                    <div className='exp-container'> <Project1/> </div>
+                ):(<div className='exp-container'><Project2/></div>)
                 }
                 <div className="carousel-dots">
                     
