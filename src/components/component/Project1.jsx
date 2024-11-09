@@ -1,5 +1,5 @@
 import React from 'react'
-import '/Users/shajinshan/Desktop/react/portfolio/src/components/component/css/project1.css'
+import './css/project1.css'
 function Project1() {
   return (
     <section className="experience-section">

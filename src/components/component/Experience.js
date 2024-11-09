@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '/Users/shajinshan/Desktop/react/portfolio/src/components/component/css/Experience.css';
+import './css/Experience.css';
 import Project1 from './Project1';
 import Project2 from './Project2';
 
