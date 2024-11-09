@@ -23,7 +23,7 @@ function HomePage() {
             <h3>Java FullStack Developer</h3>
             <div className='home-p'>
             <p>
-              I'm Shajin from Kanyakumari District. I completed my Bachelor's degree in Computer Science and Engineering in 2024.
+               I completed my Bachelor's degree in Computer Science and Engineering in 2024.
               During my studies, I built a strong foundation in <b>Core JAVA</b>, and after graduation, I completed an <b>internship in Java Full Stack</b> at Srishti Innovative.
               During this internship, I gained hands-on experience in <b>Core Java,</b> <b>Spring Boot,</b> <b>MySQL,</b> and <b>React JS,</b> and 
               became familiar with developing <b>REST APIs</b> and database operations.
@@ -31,7 +31,7 @@ function HomePage() {
             </p>
             </div>
             <div className="btn-box">
-              <a href="#">Hire me</a>
+              <a href="mailto:shajinshajin02@gmail.com">Hire me</a>
               <a href="mailto:shajinshajin02@gmail.com">Talk</a>
             </div>
           </div>

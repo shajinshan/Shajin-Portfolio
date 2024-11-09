@@ -9,6 +9,9 @@ function Education() {
   <h1>EDUCATION</h1>
 </div>
 <div className='edu-content'>
+  <div className='edu-clg-img'> 
+<img src='images/clg.png'></img>
+  </div>
   <h4>Bachelor of Engineering in Computer Science</h4>
   <li>Bethlahem Institute of Engineering Karungal,Kanyakumari District</li>
   <li>CGPA : 79.0</li>
@@ -18,6 +21,9 @@ function Education() {
 </div>
 
 <div className='edu-content-2'>
+<div className='edu-clg-img'> 
+<img src='images/school.png'></img>
+  </div>
   <h4>High School Education</h4>
   <li>Government Higher Secondary School Thuckalay</li>
   <li>Percentage: 75%</li>
