@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './css/homePage.css'
-import { Link } from 'react-router-dom';
 import Experience from '../component/Experience';
 import Navbar from '../component/Navbar';
 import Education from '../component/Education';
