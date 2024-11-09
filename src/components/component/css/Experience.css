@@ -1,6 +1,11 @@
 /* General styling */
 
-
+.exp-container {
+    /* background: #00bbff; */
+    height: 500px; /* Set a fixed height */
+    overflow: auto; /* Enable scrolling within the div */
+    padding: 10px; /* Optional: Add padding for content spacing */
+}
 .experience-section {
     justify-content: center;
     align-items: center;

@@ -49,7 +49,7 @@ body {
 
 .home {
     background: url('/Users/shajinshan/Desktop/react/portfolio/public/images/portfoliomain.jpg') no-repeat;
-    background-position:90%;
+    background-position:100%;
 
     background-size: cover;
     background-position-x: 200px;       
@@ -98,6 +98,9 @@ body {
 .home-content p {
     font-size: 16px;
     margin: 20px 0 40px;
+    overflow: hidden;
+    color: #ffffff;
+    
 
 }
 
@@ -194,7 +197,7 @@ body {
 .home-sci a:hover{
     font-size: 46px;
 }
-@media (max-width: 768px) {
+@media (max-width: 760px) {
     .header {
         padding: 15px 5%;
     }
@@ -203,7 +206,7 @@ body {
         margin-left: 20px;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 760px) {
     .home-content h1 {
         font-size: 36px;
     }
@@ -211,19 +214,34 @@ body {
         font-size: 24px;
     }
     .home-content p {
+        text-indent: 42px;
         font-size: 14px;
+            text-align: justify;
+            width: 90%; /* Optional: Control width for a centered look */
+            margin: 0 auto; /* Centers the paragraph */
+            padding-left:1px;
+            padding-right: 20px;
+            margin-bottom: 20px;
+        
+        
     }
 }
 .home-sci a:hover {
     transform: scale(1.2);
 }
-@media (max-width: 768px) {
+@media (max-width: 760px) {
     .home {
-        background-position: center;
         background-size: cover;
+        width: 100%;
+     
+        padding: 20px; /* Add some padding for better spacing */
+        text-align: center; /* Center-align content for a cleaner look */
     }
+
+   
 }
-@media (max-width: 768px) {
+
+@media (max-width: 760px) {
     .btn-box {
         flex-direction: column;
         align-items: center;
