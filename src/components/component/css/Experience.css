@@ -1,0 +1,112 @@
+/* General styling */
+
+
+.experience-section {
+    justify-content: center;
+    align-items: center;
+    background-color: #0d1a26; /* Dark background */
+    color: #fff; /* White text */
+    padding: 2rem;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.experience-title {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.experience-title::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #00bbff;
+    margin: 0.5rem auto;
+}
+
+.experience-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.job-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.experience-details {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.experience-icon {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 12px;
+    margin-top: 0.5rem;
+    border: 1px solid  #00bbff;
+    overflow: hidden;
+}
+.experience-icon img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.experience-description {
+    text-align: left;
+    max-width: 400px;
+    line-height: 1.6;
+}
+
+.experience-description a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.experience-description a:hover {
+    text-decoration: underline;
+}
+
+/* Carousel dots */
+.carousel-dots {
+    margin-top: 2rem;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 4px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.dot:hover {
+    background-color: #666;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .experience-details {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience-icon {
+        margin-bottom: 1rem;
+    }
+
+    .experience-description {
+        text-align: center;
+    }
+}

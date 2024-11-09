@@ -1,0 +1,88 @@
+/* Styles for larger screens (default) */
+.edu-container {
+    height: 40vh;
+    width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    margin-top: 102px;
+}
+
+.edu-content {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.edu-content li {
+    margin-left: 30px;
+}
+
+.edu-date-1 {
+    height: 4px;
+    width: auto;
+    margin-left: 80%;
+    margin-top: -60px;
+}
+
+.edu-content-2 {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .edu-container {
+        width: 90%;  /* Use a percentage to fit within the screen */
+        height: auto;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .edu-content, .edu-content-2 {
+        margin-left: 10px; /* Reduce margins to fit within smaller screens */
+    }
+
+    .edu-date-1 {
+        margin-left: auto;
+        margin-top: 10px;
+        text-align: right; /* Align dates to the right */
+    }
+
+    .edu-content h4, .edu-content-2 h4 {
+        font-size: 1.2em; /* Decrease font size for smaller screens */
+    }
+
+    .edu-content li, .edu-content-2 li {
+        font-size: 1em; /* Adjust list font size */
+        margin-left: 15px; /* Adjust margins */
+    }
+}
+
+/* Extra small screens (mobile) */
+@media (max-width: 480px) {
+    .edu-container {
+        width: 100%; /* Take full width */
+        padding: 5px;
+        margin-top: 200px;
+  
+    }
+
+    .edu-content h4, .edu-content-2 h4 {
+        font-size: 1em;
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+    .edu{
+        margin-left: 130px;
+    }
+
+    .edu-content li, .edu-content-2 li {
+        font-size: 0.9em;
+        margin-left: 10px;
+    }
+
+    .edu-date-1 {
+        font-size: 0.9em;
+        margin-left: 0;
+        text-align: right; /* Align dates to the left for readability */
+    }
+}

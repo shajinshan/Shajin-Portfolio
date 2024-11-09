@@ -1,0 +1,27 @@
+.project1-title {
+    margin-top: -100px;
+}
+.tools {
+    display: inline-flex;
+    justify-content: space-between;
+}
+.tools li{
+    justify-content: space-between;
+    margin-left: 3px;
+    margin-right: 4px;
+}
+.experience-description{
+    max-width: 800px;
+}
+.projext1-icon{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+  
+}
+.projext1-icon img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
