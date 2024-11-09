@@ -27,7 +27,16 @@
     margin-top: 100px;
     margin-left: 50px;
 }
-
+.edu-clg-img{
+    height: 50px;
+    width: 50px;
+    /* background-color: brown; */
+}
+.edu-clg-img img{
+    height: 50px;
+    width: 50px;
+    /* background-color: brown; */
+}
 /* Responsive styles for smaller screens */
 @media (max-width: 768px) {
     .edu-container {
@@ -64,6 +73,10 @@
         padding: 5px;
         margin-top: 200px;
   
+    }
+    .edu-clg-img img{
+       margin-top: 30px;
+       margin-left: -10px;
     }
 
     .edu-content h4, .edu-content-2 h4 {
