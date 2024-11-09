@@ -48,7 +48,9 @@ body {
 }
 
 .home {
-    background: url('/Users/shajinshan/Desktop/react/portfolio/public/images/portfoliomain.jpg') no-repeat;
+    background: url('/public/images/portfoliomain.jpg') no-repeat;
+    background-size: cover; /* Optional: Makes image cover entire div */
+    
     background-position:100%;
 
     background-size: cover;
