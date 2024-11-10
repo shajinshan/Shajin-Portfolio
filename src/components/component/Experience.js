@@ -18,7 +18,7 @@ const Experience = () => {
         setValue('project2');
     }
     return (
-        <div>
+        <div className='exp-back'>
 
             <section className="experience-section">
                 <h2 className="experience-title">Experience</h2>

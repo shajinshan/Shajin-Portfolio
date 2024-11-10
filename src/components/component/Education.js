@@ -15,6 +15,7 @@ function Education() {
   <h4>Bachelor of Engineering in Computer Science</h4>
   <li>Bethlahem Institute of Engineering Karungal,Kanyakumari District</li>
   <li>CGPA : 79.0</li>
+  <li><a href='https://www.bethlahem.org/'>Bethlahem.org</a></li>
 </div>
 <div className='edu-date-1'>
 <p>Nov 2020 - Jul 2024</p>
@@ -24,7 +25,7 @@ function Education() {
 <div className='edu-clg-img'> 
 <img src='images/school.png'></img>
   </div>
-  <h4>High School Education</h4>
+  <h4>Higher School Education</h4>
   <li>Government Higher Secondary School Thuckalay</li>
   <li>Percentage: 75%</li>
 </div>

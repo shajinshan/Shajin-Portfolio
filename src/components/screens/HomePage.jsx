@@ -30,7 +30,7 @@ function HomePage() {
               I also completed a project for a fully functional web application like an e-commerce platform for buying orchid plants, using <b>Spring Boot</b> for the backend and <b>React JS</b> for the frontend.
             </p>
             </div>
-            <div className="btn-box">
+            <div className="btn-box btn-hire-talk">
               <a href="mailto:shajinshajin02@gmail.com">Hire me</a>
               <a href="mailto:shajinshajin02@gmail.com">Talk</a>
             </div>
