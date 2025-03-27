@@ -111,3 +111,115 @@
         text-align: right; /* Align dates to the left for readability */
     }
 }
+/* Animation Keyframes */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes slideDown {
+    from { transform: translateY(-30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  
+  @keyframes slideRight {
+    from { transform: translateX(-50px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+  
+  @keyframes slideLeft {
+    from { transform: translateX(50px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+  
+  /* Animation Classes */
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-out;
+  }
+  
+  .animate-slide-down {
+    animation: slideDown 0.8s ease-out;
+  }
+  
+  .animate-slide-right {
+    animation: slideRight 0.8s ease-out;
+  }
+  
+  .animate-slide-left {
+    animation: slideLeft 0.8s ease-out;
+  }
+  
+  /* Hover Effects */
+  .hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hover-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(7, 189, 255, 0.1);
+  }
+  
+  .hover-scale {
+    transition: transform 0.3s ease;
+  }
+  
+  .hover-scale:hover {
+    transform: scale(1.05);
+  }
+  
+  .hover-translate {
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: default;
+  }
+  
+  .hover-translate:hover {
+    transform: translateX(10px);
+    color: #07bdff;
+  }
+  
+  .hover-highlight {
+    transition: color 0.3s ease;
+  }
+  
+  .hover-highlight:hover {
+    color: #07bdff;
+  }
+  
+  .hover-link {
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  
+  .hover-link:hover {
+    color: #07bdff;
+  }
+  
+  .hover-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #07bdff;
+    transition: width 0.3s ease;
+  }
+  
+  .hover-link:hover::after {
+    width: 100%;
+  }
+  
+  /* Responsive animations */
+  @media (max-width: 768px) {
+    .hover-card:hover {
+      transform: translateY(-3px);
+    }
+    
+    .hover-translate:hover {
+      transform: translateX(5px);
+    }
+    
+    .hover-scale:hover {
+      transform: scale(1.02);
+    }
+  }
